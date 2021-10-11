@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import Loading from "./components/Loading";
 import Tours from "./components/Tours";
 
-const API_URL = 'https://course-api.com/react-tours-project';
+const API_URL = "https://course-api.com/react-tours-project";
 
 function App() {
     const [loading, setLoading] = useState(true);

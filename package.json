@@ -24,6 +24,7 @@
       "react-app/jest"
     ],
     "rules": {
+      "quotes": "error",
       "arrow-parens": "error",
       "semi": "error",
       "indent": "error"
