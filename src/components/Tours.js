@@ -7,7 +7,7 @@ function Tours({ tours, removeTour }) {
         <section>
             <h1>Our Tours</h1>
             <div className="tours-list">
-                {tours.map(tour => (
+                {tours.map((tour) => (
                     <Tour key={tour.id} {...tour} removeTour={removeTour} />
                 ))}
             </div>
