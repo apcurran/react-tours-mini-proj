@@ -24,7 +24,9 @@
       "react-app/jest"
     ],
     "rules": {
-      "arrow-parens": "error"
+      "arrow-parens": "error",
+      "semi": "error",
+      "indent": "error"
     }
   },
   "browserslist": {
